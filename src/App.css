@@ -2,37 +2,82 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: blue;
+  font-family: 'Sans-Serif';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 1000px;
 }
 
-.App-link {
-  color: #61dafb;
+input{
+  width: 500px;
+  height: 50px;
+  background-color: white;
+  border: none;
+  padding-left: 15px;
+  margin-top: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image_input{
+  width: 200px;
+  height: 50px;
+  background-color: lightblue;
+  border: none;
+  padding-left: 15px;
+  margin-top: 5px;
+}
+
+
+select{
+  width: 500px;
+  height: 50px;
+  background-color: lightgray;
+  padding-left: 15px;
+  margin-top: 5px;
+}
+
+.submit-button{
+  height: 40px;
+  width: 500px;
+  background-color: darkgreen;
+  margin-top: 10px;
+  margin-left: 15px;
+  padding-left: 15px;
+}
+
+.Btn-remove{
+  height: 40px;
+  width: 500px;
+  background-color: darkgoldenrod;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.Btn-remove-all{
+  height: 40px;
+  width: 500px;
+  background-color: red;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#searchInput {
+  padding: 5px;
+  width: 200px;
+}
+
+.list_details {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  height: 50px;
+  width: 500px;
 }
