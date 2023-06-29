@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: blue;
+  background-color: lightblue;
   font-family: 'Sans-Serif';
 }
 
@@ -13,10 +13,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 1000px;
+  height: 1200px;
 }
 
-input{
+input {
   width: 500px;
   height: 50px;
   background-color: white;
@@ -25,7 +25,17 @@ input{
   margin-top: 5px;
 }
 
-.image_input{
+.search-input {
+  width: 400px;
+  height: 50px;
+  background-color: white;
+  border: none;
+  padding-left: 15px;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+
+.image-input {
   width: 200px;
   height: 50px;
   background-color: lightblue;
@@ -35,7 +45,7 @@ input{
 }
 
 
-select{
+select {
   width: 500px;
   height: 50px;
   background-color: lightgray;
@@ -43,29 +53,73 @@ select{
   margin-top: 5px;
 }
 
-.submit-button{
+.submit-button {
   height: 40px;
   width: 500px;
-  background-color: darkgreen;
+  background-color: lightseagreen;
   margin-top: 10px;
   margin-left: 15px;
   padding-left: 15px;
+  border-radius: 15px;
+  border: 0cm;
 }
 
-.Btn-remove{
+.Btn-display {
   height: 40px;
   width: 500px;
-  background-color: darkgoldenrod;
+  background-color: lightseagreen;
   margin-top: 10px;
   margin-left: 10px;
+  border-radius: 15px;
+  border: 0cm;
 }
 
-.Btn-remove-all{
+.Btn-update, .Btn-populate {
+  padding: 8px;
   height: 40px;
   width: 500px;
-  background-color: red;
+  background-color: lightseagreen;
   margin-top: 10px;
   margin-left: 10px;
+  border-radius: 15px;
+  border: 0cm;
+}
+
+.Btn-populate {
+  width: fit-content;
+}
+
+.Btn-remove {
+  padding: 8px;
+  height: 40px;
+  width: fit-content;
+  background-color: lightseagreen;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 15px;
+  border: 0cm;
+}
+
+.Btn-search {
+  padding: 8px;
+  width: fit-content;
+  height: 50px;
+  background-color: lightseagreen;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 15px;
+  border: 0cm;
+}
+
+.Btn-remove-all {
+  height: 40px;
+  width: 500px;
+  background-color: blue;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 15px;
+  border: 0cm;
+  color: azure;
 }
 
 #searchInput {
@@ -81,3 +135,31 @@ select{
   height: 50px;
   width: 500px;
 }
+
+.empTable {
+  justify-content: center;
+  height: max-content;
+  width: 800px;
+  background-color: grey;
+  margin-top: 10px;
+  margin-left: 10px;
+  overflow: auto;
+  border-collapse: collapse;
+  border: 2px solid rgba(73, 73, 65, 0.938);
+  letter-spacing: 1px;
+  font-size: 0.8rem
+}
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+ }
+
+.searched-employee{
+  color: darkgreen;
+  background-color: #f2f2f2;
+}
+
+tr.highlight td { 
+  background-color: #a6a8bd;
+ }
